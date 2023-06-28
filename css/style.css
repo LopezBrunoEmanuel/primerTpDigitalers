@@ -1,0 +1,218 @@
+
+body{
+  background-color: hotpink;
+}
+header{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+nav ul{
+  padding: 0;
+  border: solid yellow 3px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+nav ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 20px;
+  
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: blueviolet;
+  cursor:pointer;
+}
+
+
+
+.titulo{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: whitesmoke;
+}
+.imagenIndex{
+  width: 75%;
+  margin-left: 12.6%;
+  animation: fadeIn 3s ease;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      filter: blur(20px);
+    }
+  
+    10% {
+      opacity: 1;
+      filter: brightness(2) blur(10px);
+    }
+}
+.girasolIndex{
+  color: whitesmoke;
+  display:flex ;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+
+footer{
+  background-color: yellow;
+  text-align: center;
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*Contacto */
+form{
+  padding: 35px;
+  border: 2px solid yellow;
+  margin-left: 8%;
+  margin-bottom: 30px;
+  margin-right: 8%;
+}
+
+.separacion {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/*Galeria*/
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.containerDos{
+  display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+.card h4{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.imagen{
+  width: 250px;
+  height: 250px;
+  margin: 10px 15px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.imagen:hover{
+  transform: scale(2);
+  transition: 0.5s;
+}
+.video{
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 50px;
+}
+.video h4{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/*Biografia*/
+.biografia{
+  margin: 10px 30px 10px 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.biografia h2{
+  color: black;
+}
+.biografia p{
+  color: whitesmoke;
+}
+.biografia img{
+  width: 360px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/*Mas sobre mi*/
+.containerTable{
+  color: whitesmoke;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+th {
+  border: 1px solid black;
+  color: black;
+  padding-top: 1rem;
+}
+td {
+  border: 1px solid black;
+  padding-top: 1rem;
+}
+tr {
+  border: 1px solid black;
+  padding-top: 1rem;
+}
+.comoencontrarme h2{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .location h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.contact .icons{
+  width: 500px;
+  height: 350px;
+}
+.contact .icons h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact .icons h2{
+  text-align: center;
+
+}
+.contact .icons .a{
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+.contact .icons .a:hover{
+  color: blueviolet;
+    cursor: pointer;
+}
+
+

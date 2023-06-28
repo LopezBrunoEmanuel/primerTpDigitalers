@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judith Zurita</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/jpg" href="./imagenes/500148.png">
+</head>
+
+<body>
+
+  <header>
+    <h1> Judith Zurita</h1>
+    <h3> Coplera</h3>
+  
+    <nav>
+      <ul>
+        <li> <a href="index.html" target="_blank"> Inicio</a></li>
+        <li> <a href="galeria.html" target="_blank"> Galeria</a></li>
+        <li> <a href="biografia.html" target="_blank"> Biografia</a></li>
+        <li> <a href="masSobreMi.html" target="_blank"> Mas sobre Mi</a> </li>
+        <li> <a href="#Contacto"> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div>
+      <form action="recibeDatos.php" method="get">
+        
+        <div class="separacion">
+          <label for="nombre">Nombre: </label>
+          <input id="nombre" type="text" placeholder="escriba su nombre">
+        </div>
+        
+        <div class="separacion">
+          <label for="apellido">Apellido: </label>
+          <input id="apellido" type="text" name="" placeholder="escriba su apellido">
+        </div>
+
+        <div class="separacion">
+          <label for="email">Email:</label>
+          <input id="email" type="text" placeholder="escriba su email">
+        </div>
+
+        <div class="separacion">
+          <label for="comentario">Escriba su comentario</label>
+          <input id="" type="text" placeholder="escriba su comentario" style="width: 80%;" >
+        </div>
+        
+        <div class="separacion">
+          <span>Seleccione su rango de edad</span><br>
+          <input type="radio" id="edad1" name="edad" value="30">
+          <label for="edad1">0 a 30 años</label><br>
+          <input type="radio" id="edad2" name="edad" value="40">
+          <label for="edad2">30 a 55 años</label><br>
+          <input type="radio" id="edad3" name="edad" value="">
+          <label for="edad3">mas de 55</label><br>
+        </div>
+        
+        <div class="separacion">
+          <span> ¿Como me conoces? </span> <br>
+          <input type="checkbox" id="redesSociales" name="redesSociales" value="redesSociales">
+          <label for="redesSociales">Por las Redes Sociales</label><br>
+          <input type="checkbox" id="festivales" name="festivales"  value="festivales">
+          <label for="festivales">Por los festivales</label><br>
+        </div>
+
+        <div class="separacion">
+        <label for="miArchivo">Seleccione un archivo</label>
+        <input type="file" id="miArchivo" name="myfile">
+        </div>
+        
+        <div class="separacion">
+          <label for="mensaje" name="mensaje"></label>
+          <textarea id="mensaje" cols="20" rows="8"></textarea>
+        </div>
+        
+        <input type="submit">
+        
+      </form>
+    </div>
+  </main>
+  <footer>
+    <a id="Contacto"></a><p> ®2023 Todos los Derechos Reservados Judith Zurita | <a href="https://www.softandapps.info/wp-content/uploads/2011/04/politica-privacidad.jpg" target="_blank"> Politica de Privacidad</a> | <a href="contacto.html" target="_blank"> Contacto</a></p>
+  </footer>
+
+</body>
+
+</html>
